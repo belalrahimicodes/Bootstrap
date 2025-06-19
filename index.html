@@ -26,7 +26,14 @@
             </div>
         </div>
     </nav>
-    <div class="container" style="margin-top: 10%;">
+    <div style="margin-top: 5%;" class="container">
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <h2>Attention</h2>
+            <a href="#" class="alert-link">Click here for more info</a>
+            <button class="btn-close" aria-label="close" data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 2%;">
         <table class="table table-info table-hover table-sm">
             <thead>
                 <tr>
@@ -95,6 +102,89 @@
             <button class="btn btn-primary">Submit</button>
         </form>
     </div>
+    <div class="container">
+        <button class="btn btn-outline-secondary" disabled>
+            im a disabled button
+        </button>
+        <button class="btn btn-outline-secondary" data-bs-toggle="button">click me</button>
+    </div>
+    <div class="container">
+        <div class="btn-group-vertical">
+            <button class="btn btn-outline-secondary" data-bs-toggle="button">click me</button>
+            <button class="btn btn-outline-secondary" data-bs-toggle="button">click me</button>
+            <button class="btn btn-outline-secondary" data-bs-toggle="button">click me</button>
+            <button class="btn btn-outline-secondary" data-bs-toggle="button">click me</button>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 2%;">
+        <div class="card" style="width: 250px;">
+            <img class="card-img-top" src="item6.jpg" alt="card image">
+            <div class="card-body">
+                <h2 class="card-title">Card</h2>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolorum eligendi ex dolore error placeat enim sequi iusto libero animi!
+            </div>
+            <div class="card-footer">Footer</div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 3%;">
+        <button class="btn btn-secondary" data-bs-toggle="modal"
+        data-bs-target="#modal">Click me to see the modal</button>
+
+        <div class="modal fade" id="modal">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Hello</h2>
+                        <button class="btn-close" data-bs-dismiss="modal" data-bs-target="#modal"></button>
+                    </div>
+                    <div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                        suscipit hic optio porro cupiditate, sequi iure autem eum dolor
+                         rem quo doloremque vero temporibus expedita ut, aperiam distinc
+                         tio possimus corporis?</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         const form = document.querySelector("form");
         form.addEventListener('submit', event =>{
