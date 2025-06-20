@@ -110,7 +110,7 @@
     </div>
     <div class="container">
         <div class="btn-group-vertical">
-            <button class="btn btn-outline-secondary" data-bs-toggle="button">click me</button>
+            <button class="btn btn-outline-secondary  d-lg-none" data-bs-toggle="button">click me</button>
             <button class="btn btn-outline-secondary" data-bs-toggle="button">click me</button>
             <button class="btn btn-outline-secondary" data-bs-toggle="button">click me</button>
             <button class="btn btn-outline-secondary" data-bs-toggle="button">click me</button>
@@ -123,7 +123,7 @@
                 <h2 class="card-title">Card</h2>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolorum eligendi ex dolore error placeat enim sequi iusto libero animi!
             </div>
-            <div class="card-footer">Footer</div>
+            <div class="card-footer text-bg-primary bg-opacity-25">Footer</div>
         </div>
     </div>
     <div class="container" style="margin-top: 3%;">
@@ -184,6 +184,32 @@
             </div>
         </div>
     </div>
+    <div class="container" style="margin-top:20px ;">
+        <button class="btn btn-secondary" data-bs-toggle="collapse"
+        data-bs-target="#row" aria-expanded="true" aria-controls="row">
+            Collapse
+        </button>
+        <div class="row collapse show" id="row">
+            <div class="col">
+                <div class="box text-bg-dark p-3 mt-2 border border border-primary border-2 rounded">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ipsa?
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 10px;">
+        <div class=" border border-primary border-2 rounded p-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, omnis?
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="d-flex justify-content-center border border-primary border-2 rounded">
+            <div class="box" style="width: 100px;">box</div>
+            <div class="box" style="width: 100px;">box</div>
+            <div class="box" style="width: 100px;">box</div> 
+        </div>
+    </div>
+
 
     <script>
         const form = document.querySelector("form");
